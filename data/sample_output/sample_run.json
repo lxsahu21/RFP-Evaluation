@@ -1,0 +1,371 @@
+{
+  "rfp_run_id": "aacfa7a2-560b-48ca-87fe-4183f690e47e",
+  "created_at": "2026-08-29T12:06:13.628107Z",
+  "status": "completed",
+  "backend": "mock",
+  "criteria": [
+    {
+      "criterion_id": 1,
+      "name": "Technical Capability",
+      "description": "Architecture, integrations, scalability, technical fit",
+      "weight": 30.0,
+      "max_score": 10
+    },
+    {
+      "criterion_id": 2,
+      "name": "Implementation Plan",
+      "description": "Timeline, milestones, staffing, risk plan",
+      "weight": 20.0,
+      "max_score": 10
+    },
+    {
+      "criterion_id": 3,
+      "name": "Commercial Value",
+      "description": "Pricing clarity, total cost, assumptions",
+      "weight": 20.0,
+      "max_score": 10
+    },
+    {
+      "criterion_id": 4,
+      "name": "Security & Compliance",
+      "description": "Controls, certifications, privacy, auditability",
+      "weight": 20.0,
+      "max_score": 10
+    },
+    {
+      "criterion_id": 5,
+      "name": "Support & Experience",
+      "description": "Support model, similar projects, references",
+      "weight": 10.0,
+      "max_score": 10
+    }
+  ],
+  "tie_break_order": [
+    "Higher PPI first",
+    "Earlier submission date",
+    "Higher historical experience rating",
+    "Supplier name ascending"
+  ],
+  "results": [
+    {
+      "supplier_name": "Apex Systems",
+      "submission_date": "2026-03-10",
+      "experience_rating": 8.5,
+      "absolute_score": 100.0,
+      "ppi": 100.0,
+      "final_rank": 1,
+      "criteria_detail": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "weight": 30.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 16 references to 'Technical Capability' related terms.",
+          "evidence": "Keyword-based match count=16 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Plan",
+          "weight": 20.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 10 references to 'Implementation Plan' related terms.",
+          "evidence": "Keyword-based match count=10 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "weight": 20.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 14 references to 'Commercial Value' related terms.",
+          "evidence": "Keyword-based match count=14 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security & Compliance",
+          "weight": 20.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 7 references to 'Security & Compliance' related terms.",
+          "evidence": "Keyword-based match count=7 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support & Experience",
+          "weight": 10.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 16 references to 'Support & Experience' related terms.",
+          "evidence": "Keyword-based match count=16 in proposal text.",
+          "was_defaulted": false
+        }
+      ],
+      "risks": [
+        "Mock evaluation: risks not analyzed by a real LLM."
+      ],
+      "overall_summary": "[MOCK MODE] Heuristic keyword-based evaluation for Apex Systems. Replace with a real Anthropic API key for genuine LLM reasoning.",
+      "warnings": []
+    },
+    {
+      "supplier_name": "NexaWorks",
+      "submission_date": "2026-03-09",
+      "experience_rating": 7.5,
+      "absolute_score": 97.0,
+      "ppi": 97.0,
+      "final_rank": 2,
+      "criteria_detail": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "weight": 30.0,
+          "max_score": 10,
+          "score": 9.0,
+          "benchmark_score": 10.0,
+          "gap": -1.0,
+          "relative_pct": 90.0,
+          "justification": "Mock heuristic: found 5 references to 'Technical Capability' related terms.",
+          "evidence": "Keyword-based match count=5 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Plan",
+          "weight": 20.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 8 references to 'Implementation Plan' related terms.",
+          "evidence": "Keyword-based match count=8 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "weight": 20.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 9 references to 'Commercial Value' related terms.",
+          "evidence": "Keyword-based match count=9 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security & Compliance",
+          "weight": 20.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 7 references to 'Security & Compliance' related terms.",
+          "evidence": "Keyword-based match count=7 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support & Experience",
+          "weight": 10.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 15 references to 'Support & Experience' related terms.",
+          "evidence": "Keyword-based match count=15 in proposal text.",
+          "was_defaulted": false
+        }
+      ],
+      "risks": [
+        "Mock evaluation: risks not analyzed by a real LLM."
+      ],
+      "overall_summary": "[MOCK MODE] Heuristic keyword-based evaluation for NexaWorks. Replace with a real Anthropic API key for genuine LLM reasoning.",
+      "warnings": []
+    },
+    {
+      "supplier_name": "Orbit Digital",
+      "submission_date": "2026-03-11",
+      "experience_rating": 9.0,
+      "absolute_score": 90.0,
+      "ppi": 90.0,
+      "final_rank": 3,
+      "criteria_detail": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "weight": 30.0,
+          "max_score": 10,
+          "score": 8.0,
+          "benchmark_score": 10.0,
+          "gap": -2.0,
+          "relative_pct": 80.0,
+          "justification": "Mock heuristic: found 4 references to 'Technical Capability' related terms.",
+          "evidence": "Keyword-based match count=4 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Plan",
+          "weight": 20.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 9 references to 'Implementation Plan' related terms.",
+          "evidence": "Keyword-based match count=9 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "weight": 20.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 10 references to 'Commercial Value' related terms.",
+          "evidence": "Keyword-based match count=10 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security & Compliance",
+          "weight": 20.0,
+          "max_score": 10,
+          "score": 8.0,
+          "benchmark_score": 10.0,
+          "gap": -2.0,
+          "relative_pct": 80.0,
+          "justification": "Mock heuristic: found 4 references to 'Security & Compliance' related terms.",
+          "evidence": "Keyword-based match count=4 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support & Experience",
+          "weight": 10.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 11 references to 'Support & Experience' related terms.",
+          "evidence": "Keyword-based match count=11 in proposal text.",
+          "was_defaulted": false
+        }
+      ],
+      "risks": [
+        "Mock evaluation: risks not analyzed by a real LLM."
+      ],
+      "overall_summary": "[MOCK MODE] Heuristic keyword-based evaluation for Orbit Digital. Replace with a real Anthropic API key for genuine LLM reasoning.",
+      "warnings": []
+    },
+    {
+      "supplier_name": "BrightPath Tech",
+      "submission_date": "2026-03-08",
+      "experience_rating": 5.0,
+      "absolute_score": 81.0,
+      "ppi": 81.0,
+      "final_rank": 4,
+      "criteria_detail": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "weight": 30.0,
+          "max_score": 10,
+          "score": 6.0,
+          "benchmark_score": 10.0,
+          "gap": -4.0,
+          "relative_pct": 60.0,
+          "justification": "Mock heuristic: found 2 references to 'Technical Capability' related terms.",
+          "evidence": "Keyword-based match count=2 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Plan",
+          "weight": 20.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 13 references to 'Implementation Plan' related terms.",
+          "evidence": "Keyword-based match count=13 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "weight": 20.0,
+          "max_score": 10,
+          "score": 10.0,
+          "benchmark_score": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Mock heuristic: found 10 references to 'Commercial Value' related terms.",
+          "evidence": "Keyword-based match count=10 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security & Compliance",
+          "weight": 20.0,
+          "max_score": 10,
+          "score": 7.0,
+          "benchmark_score": 10.0,
+          "gap": -3.0,
+          "relative_pct": 70.0,
+          "justification": "Mock heuristic: found 3 references to 'Security & Compliance' related terms.",
+          "evidence": "Keyword-based match count=3 in proposal text.",
+          "was_defaulted": false
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support & Experience",
+          "weight": 10.0,
+          "max_score": 10,
+          "score": 9.0,
+          "benchmark_score": 10.0,
+          "gap": -1.0,
+          "relative_pct": 90.0,
+          "justification": "Mock heuristic: found 5 references to 'Support & Experience' related terms.",
+          "evidence": "Keyword-based match count=5 in proposal text.",
+          "was_defaulted": false
+        }
+      ],
+      "risks": [
+        "Mock evaluation: risks not analyzed by a real LLM."
+      ],
+      "overall_summary": "[MOCK MODE] Heuristic keyword-based evaluation for BrightPath Tech. Replace with a real Anthropic API key for genuine LLM reasoning.",
+      "warnings": []
+    }
+  ]
+}
