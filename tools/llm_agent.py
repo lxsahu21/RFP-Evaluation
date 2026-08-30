@@ -7,7 +7,7 @@ benchmarking, tie-breaks, and ranking happen later in deterministic Python
 (tools/ranking.py) -- the LLM never decides those.
 
 Two backends are supported:
-  - "anthropic": real call to Claude via the Anthropic API (requires ANTHROPIC_API_KEY)
+  - "Groq": real call to Groq via the groq API (requires GROQ_API_KEY)
   - "mock": deterministic offline heuristic scorer, used for local testing/demo
             when no API key is available (e.g. classroom demo without billing).
 """
